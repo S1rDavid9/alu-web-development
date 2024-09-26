@@ -4,6 +4,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
 }
 .header{
     display: flex;
@@ -24,6 +26,7 @@
     text-decoration: none;
     color: #ffff;
     text-transform: uppercase;
+    font-size: 0.8rem;
 
 }
 .villain {
@@ -35,31 +38,33 @@
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 7rem;
     color: #ffff;
     font-weight: 700;
     margin-top: 0rem;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .SGL {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 4rem;
+    font-size: 0.9rem;
     color: #ffff;
     margin-top: 0;
 }
 
 button {
-    border-radius: 20px;
+    border-radius: 2rem;
     background-color: #C271FF;
     color: #ffff;
     text-transform: uppercase;
     cursor: pointer;
-    padding: 14px 20px;
+    padding: 0.8rem 1rem;
     border: none;
-    margin-top: 1rem;
+    margin-top: 1rem
 }
 
 .pros {
@@ -67,8 +72,10 @@ button {
     align-items: center;
     justify-content: center;
     color: #ffff;
-    font-size: 28px;
+    font-size: 2rem;
     text-align: center;
+    margin-bottom: -13rem;
+    margin-top: 20rem;
 }
 
 .pros span {
@@ -78,13 +85,16 @@ button {
 
 div.avatars {
     display: flex;
-    gap: 5rem;
-    width: 90%;
-    margin: 0 auto;
+    gap: 10rem;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 4rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding: 15rem;
+    height: 7rem;
+    max-width: 100%;
 }
 
 .contact_card {
@@ -92,8 +102,9 @@ div.avatars {
     flex-direction: column;
     align-items: center;
     color: #ffff;
-    margin: 0;
-    margin-bottom: 5rem;
+    margin-bottom: -20rem;
+    margin-top: -10rem;
+    max-width: 100%;
 }
 
 .contact_card p {
@@ -101,19 +112,12 @@ div.avatars {
     margin: 0;
 }
 
-.contact_card .pictures{
-    width: 150px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-}
 
 .contact_card .pictures img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 9rem;
+    height: 9rem;
+
 }
 
 .part_1 {
@@ -124,16 +128,44 @@ div.avatars {
 
 .quote {
     padding: 1rem;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    text-align: justify;
+}
+
+.quote p {
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 .quote img {
-    width: 160px;
-    height: 160px;
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
     left: 259px;
-    margin-top: 5rem;
+    margin-top: 50px;
+}
+
+.tutorials {
+    display: flex;
+    flex-direction: row;
+}
+
+.tut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tut span {
+    color: #C271FF;
+}
+
+.tutorials img {
+    width: 15rem;
+    height: 11rem;
 }
 
 
