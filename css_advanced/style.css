@@ -15,8 +15,7 @@
     padding: 2rem;
 }
 
-}
-.menu{
+.menu {
     display: flex;
     padding: 2rem;
     gap: 1rem;
@@ -56,7 +55,7 @@ h2 {
     margin-top: 0;
 }
 
-button {
+.villain button {
     border-radius: 2rem;
     background-color: #C271FF;
     color: #ffff;
@@ -108,7 +107,6 @@ div.avatars {
 }
 
 .contact_card p {
-    margin-bottom: 5rem;
     margin: 0;
 }
 
@@ -145,11 +143,6 @@ div.avatars {
     margin-top: 50px;
 }
 
-.tutorials {
-    display: flex;
-    flex-direction: row;
-}
-
 .tut {
     display: flex;
     align-items: center;
@@ -157,15 +150,186 @@ div.avatars {
     color: black;
     font-size: 2rem;
     text-align: center;
+    margin-top: 5rem;
+
 }
 
 .tut span {
     color: #C271FF;
+    padding: 0.7rem;
+}
+
+
+.tutorials1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding:5rem;
+    gap: 0.5rem;
+    max-width: 100%;
+}
+
+
+.tutorials1 p {
+    padding-right: 5rem;
+    padding-top: 0;
+    margin-top: -0.5rem;
+    margin-bottom: -1rem;
 }
 
 .tutorials img {
-    width: 15rem;
-    height: 11rem;
+    width: 18rem;
+    height: 13rem;
 }
+
+.tutorials1 .Philip {
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+}
+.tutorials1 .Philip h4 {
+    color: #C271FF;
+    padding: 0.4rem;
+    text-align: center;
+    margin-left: 0.6rem;
+    font-size: 0.9rem;
+}
+
+.tutorials1 .Philip img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.tutorials1 .stars {
+    display: flex;
+}
+
+.tutorials1 .stars img {
+    width: 0.9rem;
+    height: 0.9rem;
+    padding: 0.3rem;
+    margin-top: -1rem;
+}
+
+.tutorials1 .stars p {
+    color: #C271FF;
+    padding: 0.1rem;
+    text-align: center;
+    margin-left: 6rem;
+    margin-top: -0.9rem;
+    font-size: 0.9rem;
+}
+
+.membership {
+    background-color: #071629;
+    color: white;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.membership h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.membership span {
+    color: #C271FF;
+    padding: 0.8rem;
+}
+
+
+.membership .free {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 5rem;
+    margin-top: 0.2rem;
+    gap: 10rem;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.membership button {
+    display: flex;
+    border-radius: 2rem;
+    background-color: #C271FF;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    border: none;
+    margin-left: 40rem;
+}
+
+.together {
+    display: flex;
+}
+
+.together .column {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+ .faq h3 {
+     font-size: 3.5rem;
+     font-weight: lighter;
+     text-align: center;
+     margin-bottom: 0.5rem;
+     margin-top: 6rem;
+ }
+
+ .together .column .paragraphs {
+     margin-left: 5rem;
+     margin-right: 5rem;
+     margin-top: 0.5rem;
+     margin-bottom: 5rem;
+ }
+
+.foot {
+    background-color: #071629;
+    padding: 0.5rem;
+}
+
+.foot_smile {
+    display: flex;
+}
+.foot_smile .image img {
+    padding: 7rem;
+}
+
+.foot_links {
+    display: flex;
+    margin-left: 35rem;
+    padding: 6.7rem;
+}
+
+.foot_links a {
+    padding: 1rem;
+}
+
+.foot p {
+    color: #ffff;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+
+
+
+
 
 
